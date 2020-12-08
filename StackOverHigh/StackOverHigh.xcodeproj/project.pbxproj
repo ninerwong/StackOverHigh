@@ -1,0 +1,471 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		89920A626F4F4EBFA7D6B3A6 /* Pods_StackOverHigh.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 20578FE0275A9264D1570792 /* Pods_StackOverHigh.framework */; };
+		EA7BA6D3257E526700AE2B5C /* Coin.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA7BA6D2257E526700AE2B5C /* Coin.swift */; };
+		EA97E7832573F77F00A92971 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA97E7822573F77F00A92971 /* AppDelegate.swift */; };
+		EA97E7872573F77F00A92971 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA97E7862573F77F00A92971 /* ViewController.swift */; };
+		EA97E78A2573F77F00A92971 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EA97E7882573F77F00A92971 /* Main.storyboard */; };
+		EA97E78D2573F77F00A92971 /* StackOverHigh.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = EA97E78B2573F77F00A92971 /* StackOverHigh.xcdatamodeld */; };
+		EA97E78F2573F77F00A92971 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EA97E78E2573F77F00A92971 /* Assets.xcassets */; };
+		EA97E7922573F77F00A92971 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EA97E7902573F77F00A92971 /* LaunchScreen.storyboard */; };
+		EA97E7AE2575123E00A92971 /* MyGameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA97E7AD2575123E00A92971 /* MyGameViewController.swift */; };
+		EADAEBF62575142800A3E317 /* MySCNView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EADAEBF52575142800A3E317 /* MySCNView.swift */; };
+		EADAEBFA2575155A00A3E317 /* art.scnassets in Resources */ = {isa = PBXBuildFile; fileRef = EADAEBF92575155A00A3E317 /* art.scnassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		20578FE0275A9264D1570792 /* Pods_StackOverHigh.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_StackOverHigh.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C58E5B2C4BD15159C01DCE2E /* Pods-StackOverHigh.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-StackOverHigh.release.xcconfig"; path = "Target Support Files/Pods-StackOverHigh/Pods-StackOverHigh.release.xcconfig"; sourceTree = "<group>"; };
+		EA7BA6D2257E526700AE2B5C /* Coin.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coin.swift; sourceTree = "<group>"; };
+		EA97E77F2573F77F00A92971 /* StackOverHigh.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StackOverHigh.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EA97E7822573F77F00A92971 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		EA97E7862573F77F00A92971 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		EA97E7892573F77F00A92971 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EA97E78C2573F77F00A92971 /* StackOverHigh.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = StackOverHigh.xcdatamodel; sourceTree = "<group>"; };
+		EA97E78E2573F77F00A92971 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EA97E7912573F77F00A92971 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EA97E7932573F77F00A92971 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EA97E7AD2575123E00A92971 /* MyGameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyGameViewController.swift; sourceTree = "<group>"; };
+		EADAEBF52575142800A3E317 /* MySCNView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MySCNView.swift; sourceTree = "<group>"; };
+		EADAEBF92575155A00A3E317 /* art.scnassets */ = {isa = PBXFileReference; lastKnownFileType = wrapper.scnassets; path = art.scnassets; sourceTree = "<group>"; };
+		EF290260A9E2D2DA18A7F888 /* Pods-StackOverHigh.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-StackOverHigh.debug.xcconfig"; path = "Target Support Files/Pods-StackOverHigh/Pods-StackOverHigh.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EA97E77C2573F77F00A92971 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				89920A626F4F4EBFA7D6B3A6 /* Pods_StackOverHigh.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D2495AE807D892B60395DA02 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				20578FE0275A9264D1570792 /* Pods_StackOverHigh.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DA057AA2C4C2C6783A6F9FD0 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				EF290260A9E2D2DA18A7F888 /* Pods-StackOverHigh.debug.xcconfig */,
+				C58E5B2C4BD15159C01DCE2E /* Pods-StackOverHigh.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		EA97E7762573F77F00A92971 = {
+			isa = PBXGroup;
+			children = (
+				EA97E7812573F77F00A92971 /* StackOverHigh */,
+				EA97E7802573F77F00A92971 /* Products */,
+				DA057AA2C4C2C6783A6F9FD0 /* Pods */,
+				D2495AE807D892B60395DA02 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		EA97E7802573F77F00A92971 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EA97E77F2573F77F00A92971 /* StackOverHigh.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EA97E7812573F77F00A92971 /* StackOverHigh */ = {
+			isa = PBXGroup;
+			children = (
+				EA97E7822573F77F00A92971 /* AppDelegate.swift */,
+				EADAEBF92575155A00A3E317 /* art.scnassets */,
+				EA97E7B02575130800A92971 /* depricataed */,
+				EADAEBF4257513FE00A3E317 /* SceneKit */,
+				EA97E7AC2575123000A92971 /* UIKit */,
+				EA97E7882573F77F00A92971 /* Main.storyboard */,
+				EA97E78E2573F77F00A92971 /* Assets.xcassets */,
+				EA97E7902573F77F00A92971 /* LaunchScreen.storyboard */,
+				EA97E7932573F77F00A92971 /* Info.plist */,
+				EA97E78B2573F77F00A92971 /* StackOverHigh.xcdatamodeld */,
+			);
+			path = StackOverHigh;
+			sourceTree = "<group>";
+		};
+		EA97E7AC2575123000A92971 /* UIKit */ = {
+			isa = PBXGroup;
+			children = (
+				EA97E7AD2575123E00A92971 /* MyGameViewController.swift */,
+			);
+			path = UIKit;
+			sourceTree = "<group>";
+		};
+		EA97E7B02575130800A92971 /* depricataed */ = {
+			isa = PBXGroup;
+			children = (
+				EA97E7862573F77F00A92971 /* ViewController.swift */,
+			);
+			path = depricataed;
+			sourceTree = "<group>";
+		};
+		EADAEBF4257513FE00A3E317 /* SceneKit */ = {
+			isa = PBXGroup;
+			children = (
+				EADAEBF52575142800A3E317 /* MySCNView.swift */,
+				EA7BA6D2257E526700AE2B5C /* Coin.swift */,
+			);
+			path = SceneKit;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EA97E77E2573F77F00A92971 /* StackOverHigh */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EA97E7962573F77F00A92971 /* Build configuration list for PBXNativeTarget "StackOverHigh" */;
+			buildPhases = (
+				15DF6F6581154E6ACCA5E6BB /* [CP] Check Pods Manifest.lock */,
+				EA97E77B2573F77F00A92971 /* Sources */,
+				EA97E77C2573F77F00A92971 /* Frameworks */,
+				EA97E77D2573F77F00A92971 /* Resources */,
+				82F7674EF665F8BBF83C56A0 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = StackOverHigh;
+			productName = StackOverHigh;
+			productReference = EA97E77F2573F77F00A92971 /* StackOverHigh.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EA97E7772573F77F00A92971 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1210;
+				LastUpgradeCheck = 1210;
+				TargetAttributes = {
+					EA97E77E2573F77F00A92971 = {
+						CreatedOnToolsVersion = 12.1;
+					};
+				};
+			};
+			buildConfigurationList = EA97E77A2573F77F00A92971 /* Build configuration list for PBXProject "StackOverHigh" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EA97E7762573F77F00A92971;
+			productRefGroup = EA97E7802573F77F00A92971 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EA97E77E2573F77F00A92971 /* StackOverHigh */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EA97E77D2573F77F00A92971 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA97E7922573F77F00A92971 /* LaunchScreen.storyboard in Resources */,
+				EADAEBFA2575155A00A3E317 /* art.scnassets in Resources */,
+				EA97E78F2573F77F00A92971 /* Assets.xcassets in Resources */,
+				EA97E78A2573F77F00A92971 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		15DF6F6581154E6ACCA5E6BB /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-StackOverHigh-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		82F7674EF665F8BBF83C56A0 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-StackOverHigh/Pods-StackOverHigh-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-StackOverHigh/Pods-StackOverHigh-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-StackOverHigh/Pods-StackOverHigh-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EA97E77B2573F77F00A92971 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA7BA6D3257E526700AE2B5C /* Coin.swift in Sources */,
+				EA97E7AE2575123E00A92971 /* MyGameViewController.swift in Sources */,
+				EA97E78D2573F77F00A92971 /* StackOverHigh.xcdatamodeld in Sources */,
+				EA97E7872573F77F00A92971 /* ViewController.swift in Sources */,
+				EADAEBF62575142800A3E317 /* MySCNView.swift in Sources */,
+				EA97E7832573F77F00A92971 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		EA97E7882573F77F00A92971 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EA97E7892573F77F00A92971 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EA97E7902573F77F00A92971 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EA97E7912573F77F00A92971 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EA97E7942573F77F00A92971 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		EA97E7952573F77F00A92971 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EA97E7972573F77F00A92971 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EF290260A9E2D2DA18A7F888 /* Pods-StackOverHigh.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7RUZJJY3MF;
+				INFOPLIST_FILE = StackOverHigh/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ninerwong.StackOverHigh;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EA97E7982573F77F00A92971 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C58E5B2C4BD15159C01DCE2E /* Pods-StackOverHigh.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7RUZJJY3MF;
+				INFOPLIST_FILE = StackOverHigh/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ninerwong.StackOverHigh;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EA97E77A2573F77F00A92971 /* Build configuration list for PBXProject "StackOverHigh" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EA97E7942573F77F00A92971 /* Debug */,
+				EA97E7952573F77F00A92971 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EA97E7962573F77F00A92971 /* Build configuration list for PBXNativeTarget "StackOverHigh" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EA97E7972573F77F00A92971 /* Debug */,
+				EA97E7982573F77F00A92971 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		EA97E78B2573F77F00A92971 /* StackOverHigh.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				EA97E78C2573F77F00A92971 /* StackOverHigh.xcdatamodel */,
+			);
+			currentVersion = EA97E78C2573F77F00A92971 /* StackOverHigh.xcdatamodel */;
+			path = StackOverHigh.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = EA97E7772573F77F00A92971 /* Project object */;
+}
